@@ -1,0 +1,16 @@
+body {
+    background-color: #f8f9fa;
+    box-shadow: inset;
+}
+
+.gallery img {
+    margin-bottom: 30px;
+    transition: transform 0.3s ease;
+    box-shadow: 10px 10px rgb(40, 48, 50);
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+    box-shadow: inset;
+    box-shadow: 10px 10px lightblue;
+}
